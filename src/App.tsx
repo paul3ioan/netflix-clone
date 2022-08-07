@@ -1,11 +1,8 @@
 import React from 'react';
+import RootRouter from './router/AppRouter';
 
-function App() {
-  return (
-    <div>
-      <p className="text-3xl font-bold underline text-red-600">Edit and save to reload.</p>
-    </div>
-  );
-}
+const App = (): JSX.Element => {
+  return <RootRouter />;
+};
 
 export default App;
